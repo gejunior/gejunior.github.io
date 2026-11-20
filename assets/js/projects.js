@@ -25,7 +25,8 @@ export const projetos = [
         tipo: "contribuicao",
         descricao: "Aplicativo mobile voltado à segurança digital, com controle de acesso multi-perfil e integração de eventos.",
         tags: ["Ionic", "Angular", "Capacitor"],
-        linkDemo: "https://play.google.com/store/apps/details?id=br.com.aiss.app2",
-        linkRepo: ""
+        linkDemo: "",
+        linkRepo: "",
+        linkPlayStore: "https://play.google.com/store/apps/details?id=br.com.aiss.app2"
     }
 ];

@@ -23,10 +23,13 @@ function renderizarProjetos(filtro = "todos") {
         if (proj.linkDemo) {
             botoesHTML += `<a href="${proj.linkDemo}" target="_blank" class="btn-link btn-primary">Acessar Site</a>`;
         }
+        if(proj.linkPlayStore){
+            botoesHTML += `<a href="${proj.linkPlayStore}" target="_blank" rel="noopener noreferrer" class="btn-link btn-primary">Ir para Google Play</a>`
+        }
         if (proj.linkRepo) {
             botoesHTML += `<a href="${proj.linkRepo}" target="_blank" class="btn-link btn-secondary">Código (GitHub)</a>`;
         }
-        if (!proj.linkDemo && !proj.linkRepo) {
+        if (!proj.linkDemo && !proj.linkPlayStore && !proj.linkRepo) {
             botoesHTML = `<span class="btn-link btn-disabled">Em construção</span>`;
         }
 
