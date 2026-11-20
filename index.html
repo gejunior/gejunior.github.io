@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos — Genilson Junior</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="header-title">
+        <span>🚀</span>
+        <div><span class="highlight">Portfólio & Projetos</span> — Genilson Junior</div>
+      </div>
+      <p class="subtitle">Ciência da Computação • IFSP Presidente Epitácio • Ferramentas web, sistemas e contribuições</p>
+    </header>
+
+    <!-- Filtros -->
+    <div class="filters">
+      <button class="filter-btn active" onclick="filtrar('todos', this)">📂 Todos</button>
+      <button class="filter-btn" onclick="filtrar('criado', this)">🟢 Criados por mim</button>
+      <button class="filter-btn" onclick="filtrar('contribuicao', this)">🩷 Contribuições</button>
+      <button class="filter-btn" onclick="filtrar('breve', this)">⏳ Em desenvolvimento</button>
+    </div>
+
+    <!-- Lista de Projetos -->
+    <div class="projects-grid" id="grid-projetos"></div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
