@@ -17,7 +17,7 @@ export const projetos = [
         tipo: "criado",
         descricao: "Ferramenta web para estruturar revisões, conceitos de programação orientada a objetos e organizar tópicos de estudo visualmente.",
         tags: ["JavaScript", "Canvas/SVG", "UI/UX"],
-        linkDemo: "gejunior.github.io-mapa-mental",
+        linkDemo: "https://gejunior.github.io-mapa-mental",
         linkRepo: ""
     },
     {
