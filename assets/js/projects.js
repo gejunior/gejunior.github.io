@@ -14,10 +14,10 @@ export const projetos = [
     },
     {
         titulo: "🧠 Gerador de Mapas Mentais",
-        tipo: "breve",
+        tipo: "criado",
         descricao: "Ferramenta web para estruturar revisões, conceitos de programação orientada a objetos e organizar tópicos de estudo visualmente.",
         tags: ["JavaScript", "Canvas/SVG", "UI/UX"],
-        linkDemo: "",
+        linkDemo: "gejunior.github.io-mapa-mental",
         linkRepo: ""
     },
     {
@@ -25,7 +25,7 @@ export const projetos = [
         tipo: "contribuicao",
         descricao: "Aplicativo mobile voltado à segurança digital, com controle de acesso multi-perfil e integração de eventos.",
         tags: ["Ionic", "Angular", "Capacitor"],
-        linkDemo: "",
+        linkDemo: "https://play.google.com/store/apps/details?id=br.com.aiss.app2",
         linkRepo: ""
     }
 ];
