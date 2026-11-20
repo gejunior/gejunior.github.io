@@ -1,34 +1,4 @@
-
-// =========================================================================
-// ADICIONE OU EDITE OS PROJETOS AQUI
-// Tipos aceitos: 'criado', 'contribuicao', 'breve'
-// =========================================================================
-const projetos = [
-    {
-        titulo: "🎓 Fluxograma BCC",
-        tipo: "contribuicao",
-        descricao: "Sistema interativo para acompanhamento da grade curricular, pré-requisitos e previsão de formatura do Bacharelado em Ciência da Computação (IFSP).",
-        tags: ["HTML/CSS", "JavaScript", "GitHub Pages"],
-        linkDemo: "https://petercen.github.io",
-        linkRepo: "https://github.com/gejunior"
-    },
-    {
-        titulo: "🧠 Gerador de Mapas Mentais",
-        tipo: "breve",
-        descricao: "Ferramenta web para estruturar revisões, conceitos de programação orientada a objetos e organizar tópicos de estudo visualmente.",
-        tags: ["JavaScript", "Canvas/SVG", "UI/UX"],
-        linkDemo: "",
-        linkRepo: ""
-    },
-    {
-        titulo: "🛡️ AISS - Anti-Golpe",
-        tipo: "contribuicao",
-        descricao: "Aplicativo mobile voltado à segurança digital, com controle de acesso multi-perfil e integração de eventos.",
-        tags: ["Ionic", "Angular", "Capacitor"],
-        linkDemo: "",
-        linkRepo: ""
-    }
-];
+import { projetos } from "./projects.js"
 
 const labelsTipo = {
     criado: { texto: "Criado por mim", classe: "badge-criado" },
@@ -87,3 +57,5 @@ function filtrar(categoria, botaoClicado) {
 
 // Inicializa a página
 renderizarProjetos();
+
+window.filtrar = filtrar;
