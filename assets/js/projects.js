@@ -8,7 +8,7 @@ export const projetos = [
         titulo: "🎓 Fluxograma BCC",
         tipo: "contribuicao",
         descricao: "Sistema interativo para acompanhamento da grade curricular, pré-requisitos e previsão de formatura do Bacharelado em Ciência da Computação (IFSP).",
-        tags: ["HTML","CSS", "JavaScript"],
+        tags: ["HTML","CSS", "JavaScript", "Formspree"],
         linkDemo: "https://petercen.github.io",
         linkRepo: ""
     },
@@ -18,6 +18,14 @@ export const projetos = [
         descricao: "Ferramenta web para estruturar revisões, conceitos de programação orientada a objetos e organizar tópicos de estudo visualmente.",
         tags: ["JavaScript", "Canvas/SVG", "UI/UX"],
         linkDemo: "mapa-mental",
+        linkRepo: ""
+    },
+    {
+        titulo: "🥬 Feira Em Casa",
+        tipo: "criado",
+        descricao: "Site de pedidos online para uma feira de frutas, legumes e verduras em Presidente Epitácio. O cliente monta a cesta da semana, vê o total com taxa de entrega e envia o pedido, que chega por email via Formspree.",
+        tags: ["HTML", "CSS", "JavaScript", "Formspree"],
+        linkDemo: "FeiraEmCasa",
         linkRepo: ""
     },
     {
