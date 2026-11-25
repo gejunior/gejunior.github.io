@@ -46,6 +46,7 @@ export const projetos = [
         tipo: "breve",
         descricao: "Ferramenta web client-side que lê o PDF do Projeto Pedagógico de Curso (PPC), extrai disciplinas, semestres, cargas horárias e pré-requisitos por coordenadas espaciais e gera o JSON estruturado para o fluxograma curricular.",
         tags: ["HTML", "CSS", "JavaScript", "PDF"],
-        linkDemo: "https://gejunior.github.io/lerArquivo"
+        linkDemo: "https://gejunior.github.io/lerArquivo",
+        linkRepo: "https://github.com/gejunior/ler-arquivo"
     }
 ];
